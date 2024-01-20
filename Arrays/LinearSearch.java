@@ -1,7 +1,5 @@
 package Arrays;
-
 public class LinearSearch {
-
     public static int linearsearch(int array[],int key){
         for(int i=0;i<array.length;i++){
             if(array[i]==key){
