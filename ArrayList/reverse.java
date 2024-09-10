@@ -4,7 +4,7 @@ import java.util.*;
 
 public class reverse {
 
-    public static void reverse(ArrayList<Integer> list) {
+    public static void reverseArray(ArrayList<Integer> list) {
         for (int i = list.size() - 1; i >= 0; i--) {
             System.out.print(list.get(i) + " ");
         }
@@ -19,6 +19,6 @@ public class reverse {
         list.add(3);
         list.add(4);
         list.add(5);
-        reverse(list);
+        reverseArray(list);
     }
 }
